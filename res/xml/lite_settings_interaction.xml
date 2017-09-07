@@ -68,6 +68,11 @@
             android:summary="@string/status_bar_quick_qs_pulldown_summary"
             android:defaultValue="false" />
 
+        <com.lite.settings.preference.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_sleep_gesture_title"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
