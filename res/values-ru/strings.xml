@@ -16,6 +16,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Ярлыки экрана блокировки</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Значки строки состояния</string>
+
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Настройка навигационной панели</string>
 
