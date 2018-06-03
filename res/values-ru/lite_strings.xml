@@ -28,8 +28,8 @@
     <string name="navbar_buttons_title">Кнопки панели навигации</string>
     <string name="navbar_buttons_summary">Настроить наэкранные кнопки</string>
     <string name="cancel">Отмена</string>
-    <string name="general_title">Общие</string>
-    <string name="general_summary">Общие настройки отображения и поведения</string>
+    <string name="general_title">Поведение системы</string>
+    <string name="general_summary">Общие настройки поведения системы</string>
 
 <!-- Network traffic -->
     <string name="network_traffic_title">Индикатор трафика</string>
@@ -366,10 +366,6 @@
   <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
   <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
   <string name="pref_scrollingcache_force_disable">Отключить принудительно</string>
-
-<!--show cpu overlay -->
-  <string name="show_cpu_title">Показать информацию о процессоре</string>
-  <string name="show_cpu_summary">Отображать текущее состояние процессора поверх изображения</string>
 
 <!-- Sensor block per-package -->
   <string name="sensor_block_title">Блокировка датчиков попакетно</string>
