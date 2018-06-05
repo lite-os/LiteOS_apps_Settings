@@ -28,8 +28,8 @@
     <string name="navbar_buttons_title">Кнопки панели навигации</string>
     <string name="navbar_buttons_summary">Настроить наэкранные кнопки</string>
     <string name="cancel">Отмена</string>
-    <string name="general_title">Общие</string>
-    <string name="general_summary">Общие настройки отображения и поведения</string>
+    <string name="general_title">Поведение системы</string>
+    <string name="general_summary">Общие настройки поведения системы</string>
 
 <!-- Network traffic -->
     <string name="network_traffic_title">Индикатор трафика</string>
@@ -334,16 +334,6 @@
   <string name="screen_state_on_delay_title">Отложить действия при включении экрана</string>
   <string name="screen_state_on_delay_summary">Отложить действия при включении экрана на указанное количество секунд</string>
 
-<!-- Ambient Ticker -->
-  <string name="force_ambient_for_media_pref_title">Функция «Сейчас играет»</string>
-  <string name="force_ambient_for_media_pref_summary">Информация о текущем треке в режиме «Окружающие уведомления»</string>
-  <string name="ambient_ticker_footer">Функция позволяет отображать информацию о текущем треке на экране блокировки используя «Ambient Display».\n\nВы можете выбрать обычный или упрощенный режим отображния. Эта функция использует «Ambient Display» и так или иначе зависит от него. Она может быть вызвана без его использования с помощью принудительного режима.\n\nВ обычном режиме на экране отображаются часы, дата и информация о треке.\n\nВ упрощенном режиме часы и дата скрыты, информация о треке отображается по центру экрана.</string>
-  <string name="force_ambient_for_media_title">Выбрерите шаблон</string>
-  <string name="force_ambient_for_media_off">отключено</string>
-  <string name="force_ambient_for_media_on">Обычный</string>
-  <string name="force_ambient_for_media_on_forced">Обычный (принудительно)</string>
-  <string name="force_ambient_for_media_on_forced_clean">Минимальный (принудительно)</string>
-
 <!-- Expanded desktop -->
   <string name="expanded_desktop_category">Расширенный рабочий стол</string>
   <string name="expanded_desktop_summary">Опции расширенного стола для отдельно взятого приложения</string>
@@ -366,10 +356,6 @@
   <string name="pref_scrollingcache_default_enable">Включить по умолчанию</string>
   <string name="pref_scrollingcache_default_disable">Отключить по умолчанию</string>
   <string name="pref_scrollingcache_force_disable">Отключить принудительно</string>
-
-<!--show cpu overlay -->
-  <string name="show_cpu_title">Показать информацию о процессоре</string>
-  <string name="show_cpu_summary">Отображать текущее состояние процессора поверх изображения</string>
 
 <!-- Sensor block per-package -->
   <string name="sensor_block_title">Блокировка датчиков попакетно</string>
