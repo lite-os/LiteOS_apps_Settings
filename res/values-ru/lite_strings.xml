@@ -23,6 +23,8 @@
     <string name="hide_lockscreen_date_summary">Изменить видимость даты под виджетом часов</string>
     <string name="hide_lockscreen_alarm_title">Текст будильника</string>
     <string name="hide_lockscreen_alarm_summary">Изменить видимость текста будильника под виджетом часов</string>
+    <string name="lockscreen_clock_settings_title">Часы и Дата</string>
+    <string name="lockscreen_clock_settings_summary">Настройки часов и даты на экране блокировки</string>
 
 <!-- Lite menus -->
     <string name="lite_settings_title">LiteOS</string>
