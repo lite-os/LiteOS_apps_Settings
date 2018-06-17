@@ -66,4 +66,9 @@
             android:entryValues="@array/clock_date_format_entries_values"
             android:dependency="status_bar_show_clock" />
 
+        <Preference
+            android:title="@string/lite_category_lockscreen"
+            android:summary="@string/lockscreen_clock_settings_summary"
+            android:fragment="com.lite.settings.fragments.LockScreenSettingsClock" />
+
 </PreferenceScreen>

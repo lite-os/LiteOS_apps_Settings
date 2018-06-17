@@ -15,6 +15,25 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Hide Lockscreen clock, date, & alarm -->
+    <string name="hide_lockscreen_clock_title">Clock widget</string>
+    <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
+    <string name="hide_lockscreen_date_title">Date widget</string>
+    <string name="hide_lockscreen_date_summary">Change the date\'s visibility underneath the clock widget</string>
+    <string name="hide_lockscreen_alarm_title">Alarm text</string>
+    <string name="hide_lockscreen_alarm_summary">Change the alarm text\'s visibility underneath the clock widget</string>
+    <string name="lockscreen_clock_selection_title">Clock style</string>
+    <string name="lockscreen_clock_selection_digital">Default</string>
+    <string name="lockscreen_clock_selection_digital_bold">Digital (bold)</string>
+    <string name="lockscreen_clock_selection_analog">Analog</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_date_selection_title">Date style</string>
+    <string name="lockscreen_date_selection_default_aosp">Default</string>
+    <string name="lockscreen_date_selection_default">Default (bigger size)</string>
+    <string name="lockscreen_date_selection_str_box">Semi-transparent box</string>
+    <string name="lockscreen_date_selection_str_round">Semi-transparent box (round)</string>
+
 <!-- Lite menus -->
 	<string name="lite_settings_title">LiteOS</string>
 	<string name="keywords_lite">LiteOS</string>
@@ -28,6 +47,11 @@
     <string name="cancel">Cancel</string>
     <string name="general_title">General</string>
     <string name="general_summary">Misc, UI/UX customization</string>
+    <string name="lite_category_statusbar">Statusbar</string>
+    <string name="lite_category_lockscreen">Lockscreen</string>
+    <string name="lockscreen_clock_title">Clock,Data</string>
+    <string name="lockscreen_clock_settings_title">Clock and Date</string>
+    <string name="lockscreen_clock_settings_summary">clock and date settings</string>
 
 <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
