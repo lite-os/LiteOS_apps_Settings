@@ -16,6 +16,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Мигать вспышкой при вызове</string>
+    <string name="flashlight_on_call_disabled">Отключено</string>
+    <string name="flashlight_on_call_not_dnd">Только в режиме звонка</string>
+    <string name="flashlight_on_call_dnd">Только в режиме \"Не беспокоить\"</string>
+    <string name="flashlight_on_call_always">Всегда</string>
+
 <!-- double tap -->
     <string name="lite_category_double_tap">Двойное нажатие для сна</string>
     <string name="double_tap_sleep_lockscreen">Экран блокировки</string>

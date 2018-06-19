@@ -38,6 +38,8 @@ import com.android.settings.search.Indexable;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
+import com.lite.settings.utils.Utils;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -45,8 +47,12 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
     private static final String TAG = "NotificationSettings";
 
+    private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
+
     private ListPreference mNoisyNotification;
     private ListPreference mAnnoyingNotification;
+
+    private ListPreference mFlashlightOnCall;
 
     @Override
     public int getMetricsCategory() {
@@ -95,6 +101,18 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
                 Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD,
                 0, UserHandle.USER_CURRENT);
         mAnnoyingNotification.setValue(String.valueOf(threshold));
+
+        mFlashlightOnCall = (ListPreference) findPreference(FLASHLIGHT_ON_CALL);
+        Preference FlashOnCall = findPreference("flashlight_on_call");
+        int flashlightValue = Settings.System.getInt(getContentResolver(),
+                Settings.System.FLASHLIGHT_ON_CALL, 0);
+        mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
+        mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
+        mFlashlightOnCall.setOnPreferenceChangeListener(this);
+
+        if (!Utils.deviceSupportsFlashLight(getActivity())) {
+            prefSet.removePreference(FlashOnCall);
+        }
     }
 
     @Override
@@ -111,6 +129,13 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
             int mode = Integer.parseInt(((String) newValue).toString());
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, mode, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mFlashlightOnCall) {
+            int flashlightValue = Integer.parseInt(((String) newValue).toString());
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.FLASHLIGHT_ON_CALL, flashlightValue);
+            mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
+            mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
             return true;
         }
         return false;
