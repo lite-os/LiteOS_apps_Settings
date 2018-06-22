@@ -15,6 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Animaion P -->
+    <string name="animation_p_title">Animation system</string>
+    <string name="animation_p_summary">Animation in the style of Android P</string>
+
 <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="hide_lockscreen_clock_title">Clock widget</string>
     <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
@@ -28,6 +32,7 @@
     <string name="lockscreen_clock_selection_analog">Analog</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (bold)</string>
+    <string name="lockscreen_clock_selection_analog_dot">Analog (dotos)</string>
     <string name="lockscreen_date_selection_title">Date style</string>
     <string name="lockscreen_date_selection_default_aosp">Default</string>
     <string name="lockscreen_date_selection_default">Default (bigger size)</string>

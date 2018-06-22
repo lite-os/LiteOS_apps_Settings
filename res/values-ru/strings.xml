@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Animation P -->
+    <string name="animation_p_title">Анимация системы</string>
+    <string name="animation_p_summary">Анимация в стиле Android P</string>
+
 <!-- lockscreen clock -->
     <string name="hide_lockscreen_clock_title">Виджет часов</string>
     <string name="hide_lockscreen_clock_summary">Изменить видимость виджета часов</string>
