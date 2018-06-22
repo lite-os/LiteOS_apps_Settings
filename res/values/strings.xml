@@ -15,6 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Animaion P -->
+    <string name="animation_p_title">Animation system</string>
+    <string name="animation_p_summary">Animation in the style of Android P</string>
+
 <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="hide_lockscreen_clock_title">Clock widget</string>
     <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
