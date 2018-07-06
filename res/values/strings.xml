@@ -19,6 +19,14 @@
     <string name="animation_p_title">Animation system</string>
     <string name="animation_p_summary">Animation in the style of Android P</string>
 
+<!-- Volume button track change -->
+    <string name="volbtn_music_controls_title">Volume button Music control</string>
+    <string name="volbtn_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
+
+<!-- Wake on Plug -->
+    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+
 <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="hide_lockscreen_clock_title">Clock widget</string>
     <string name="hide_lockscreen_clock_summary">Change the clock widget\'s visibility</string>
@@ -49,6 +57,7 @@
     <string name="buttons_title">Buttons</string>
     <string name="navbar_buttons_title">Navigation bar layout</string>
     <string name="navbar_buttons_summary">Configure on-screen navigation bar layout and custom buttons</string>
+    <string name="buttons_summary">Configure on-screen navigation bar layout and custom buttons</string>
     <string name="cancel">Cancel</string>
     <string name="general_title">General</string>
     <string name="general_summary">Misc, UI/UX customization</string>
