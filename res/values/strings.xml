@@ -15,6 +15,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- rounding of corners -->
+    <string name="corner_radius">Rounded Corner Radius</string>
+    <string name="corner_fwvals">Use framework values</string>
+    <string name="corner_fwvals_summary">Useful if the device actually has rounded corners</string>
+
     <!--Double Tap to Sleep Statusbar-->
     <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
 

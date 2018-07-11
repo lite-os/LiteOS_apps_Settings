@@ -14,6 +14,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/lite_settings_interface_title">
 
+    <Preference
+        android:title="@string/corner_radius"
+        android:fragment="com.lite.settings.fragments.CornersFragment" />
+
     <PreferenceCategory
         android:title="@string/lite_category_statusbar">
 
