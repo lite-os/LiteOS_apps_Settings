@@ -16,6 +16,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- double tap -->
+    <string name="lite_category_double_tap">Двойное нажатие для сна</string>
+    <string name="double_tap_sleep_lockscreen">Экран блокировки</string>
+    <string name="double_tap_to_sleep_title">Статусбар</string>
+
 <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">Кнопка \"Очистить всё\"</string>
     <string name="show_clear_all_recents_button_summary_on">Показать кнопку \"Очистить всё\"</string>
