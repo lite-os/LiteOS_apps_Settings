@@ -15,6 +15,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- About -->
+    <string name="about_lite_settings_title">About the system</string>
+    <string name="about_lite_settings_summary">Links, information</string>
+    <string name="lite_donate_title">Support</string>
+    <string name="lite_donate_summary">Donate to support development and our server</string>
+    <string name="lite_source_title">GitHub</string>
+    <string name="lite_source_summary">Source</string>
+    <string name="lite_download_title">Download</string>
+    <string name="lite_download_summary">Download page</string>
+
 <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Blink Flashlight on call</string>
     <string name="flashlight_on_call_disabled">Disabled</string>

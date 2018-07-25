@@ -16,6 +16,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- About -->
+    <string name="about_lite_settings_title">О системе</string>
+    <string name="about_lite_settings_summary">Ссылки, информация</string>
+    <string name="lite_donate_title">Поддержать</string>
+    <string name="lite_donate_summary">Пожертвовать на разработку и на сервер</string>
+    <string name="lite_source_title">GitHub</string>
+    <string name="lite_source_summary">Исходники</string>
+    <string name="lite_download_title">Загрузки</string>
+    <string name="lite_download_summary">Страница загрузки</string>
+
 <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Мигать вспышкой при вызове</string>
     <string name="flashlight_on_call_disabled">Отключено</string>
