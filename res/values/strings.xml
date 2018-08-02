@@ -15,6 +15,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Maintainer -->
+    <string name="lite_category_maintainer">Maintainer</string>
+    <string name="lite_maintainer_title">NickName</string>
+    <string name="lite_maintainer_donate_title">Donate</string>
+    <string name="lite_maintainer_url">https://</string>
+    <string name="lite_maintainer_donate_url">https://</string>
+
 <!-- About -->
     <string name="about_lite_settings_title">About the system</string>
     <string name="about_lite_settings_summary">Links, information</string>

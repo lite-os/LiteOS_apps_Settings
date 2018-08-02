@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+<!-- Maintainer -->
+    <string name="lite_category_maintainer">Сопровождающий</string>
+    <string name="lite_maintainer_donate_title">Поддержать</string>
+
 <!-- About -->
     <string name="about_lite_settings_title">О системе</string>
     <string name="about_lite_settings_summary">Ссылки, информация</string>

@@ -16,7 +16,9 @@
 package com.lite.settings.fragments.about;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -36,9 +38,15 @@ public class About extends SettingsPreferenceFragment {
     private String LITE_DOWNLOAD = "lite_download";
     private String LITE_DONATE = "lite_donate";
 
+    private String MAINTAINER = "lite_maintainer";
+    private String MAINTAINER_DONATE = "lite_maintainer_donate";
+
     private Preference mSourceUrl;
     private Preference mDownloadUrl;
     private Preference mDonate;
+
+    private Preference mMaintainer;
+    private Preference mMaintainerDonate;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -48,16 +56,28 @@ public class About extends SettingsPreferenceFragment {
         mSourceUrl = findPreference(LITE_SOURCE);
         mDownloadUrl = findPreference(LITE_DOWNLOAD);
         mDonate = findPreference(LITE_DONATE);
+
+        mMaintainer = findPreference(MAINTAINER);
+        mMaintainerDonate = findPreference(MAINTAINER_DONATE);
+
     }
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
+
+        String MaintainerUrl = getResources().getString(R.string.lite_maintainer_url);
+        String MaintainerDonateUrl = getResources().getString(R.string.lite_maintainer_donate_url);
+
         if (preference == mSourceUrl) {
             clickUrl("https://github.com/lite-os");
         } else if (preference == mDownloadUrl) {
             clickUrl("https://sourceforge.net/projects/lite-os/files/");
         } else if (preference == mDonate) {
             clickUrl("https://www.paypal.me/alehadruga");
+        } else if (preference == mMaintainer) {
+            clickUrl(MaintainerUrl);
+        } else if (preference == mMaintainerDonate) {
+            clickUrl(MaintainerDonateUrl);
         }
         return super.onPreferenceTreeClick(preference);
     }

@@ -42,4 +42,17 @@
         android:title="@string/changelog_custom_title"
         android:summary="@string/changelog_custom_summary"
         android:fragment="com.android.settings.custom.Changelog" />
+
+    <PreferenceCategory
+        android:title="@string/lite_category_maintainer">
+        <PreferenceScreen
+            android:key="lite_maintainer"
+            android:title="@string/lite_maintainer_title"
+            settings:allowDividerAbove="false" />
+
+        <PreferenceScreen
+            android:key="lite_maintainer_donate"
+            android:title="@string/lite_maintainer_donate_title"
+            settings:allowDividerAbove="false" />
+    </PreferenceCategory>
 </PreferenceScreen>
