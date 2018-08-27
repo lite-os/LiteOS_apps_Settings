@@ -15,6 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
+    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+
     <!-- QS Settings -->
     <string name="qs_panel_alpha_title">Opacity</string>
     <string name="qs_show_brightness_title">Brightness slider</string>
@@ -146,6 +152,7 @@
     <string name="lite_category_lockscreen">Lockscreen</string>
     <string name="lite_category_button">Button</string>
     <string name="lite_category_fp_key">Fingerprint</string>
+    <string name="lite_category_power_key">Power key</string>
 
     <!-- Maintainer -->
     <string name="lite_category_maintainer">Maintainer</string>

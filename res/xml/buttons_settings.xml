@@ -18,6 +18,18 @@
     android:title="@string/button_settings_title">
 
     <PreferenceCategory
+        android:key="power_key"
+        android:title="@string/lite_category_power_key" >
+
+        <ListPreference
+            android:key="torch_power_button_gesture"
+            android:title="@string/torch_power_button_gesture_title"
+            android:entries="@array/torch_power_button_gesture_entries"
+            android:entryValues="@array/torch_power_button_gesture_values" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="back_key"
         android:title="@string/hardware_keys_back_key_title" >
 
