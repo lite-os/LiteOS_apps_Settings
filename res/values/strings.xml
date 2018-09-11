@@ -35,6 +35,8 @@
 <!-- Lite menus -->
     <string name="lite_settings_title">Additional Settings</string>
     <string name="lite_settings_summary">Interface, interaction</string>
+    <string name="lite_settings_interface_title">Interface</string>
+    <string name="lite_settings_interface_summary">Item Display Settings</string>
     <string name="keywords_lite">LiteOS</string>
 
 </resources>

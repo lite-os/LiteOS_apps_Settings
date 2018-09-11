@@ -12,12 +12,6 @@
 -->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/lite_settings_title">
-
-    <PreferenceScreen
-        android:key="interface"
-        android:title="@string/lite_settings_interface_title"
-        android:summary="@string/lite_settings_interface_summary"
-        android:fragment="com.lite.settings.LiteSettingsInterface" />
+    android:title="@string/lite_settings_interface_title">
 
 </PreferenceScreen>

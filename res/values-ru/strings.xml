@@ -33,6 +33,8 @@
 <!-- Lite menus -->
     <string name="lite_settings_title">Дополнительные настройки</string>
     <string name="lite_settings_summary">Интерфейс, взаимодействие</string>
+    <string name="lite_settings_interface_title">Интерфейс</string>
+    <string name="lite_settings_interface_summary">Настройки отображения элементов</string>
     <string name="keywords_lite">LiteOS</string>
 
 </resources>
