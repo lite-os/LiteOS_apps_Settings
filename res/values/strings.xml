@@ -15,6 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Lockscreen Media Art -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
     <string name="network_traffic_summary">Option to show net activity meter on status bar</string>
@@ -27,6 +31,7 @@
 
     <!-- Category -->
     <string name="lite_category_statusbar">Statusbar</string>
+    <string name="lite_category_lockscreen">Lockscreen</string>
 
     <!-- Maintainer -->
     <string name="lite_category_maintainer">Maintainer</string>

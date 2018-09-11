@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Lockscreen Media Art -->
+    <string name="media_art_title">Обложка альбома</string>
+    <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
+
     <!-- Network traffic -->
     <string name="network_traffic_title">Индикатор трафика</string>
     <string name="network_traffic_summary">Индикатор активности сети в статусбаре</string>
@@ -28,6 +32,7 @@
 
     <!-- Category -->
     <string name="lite_category_statusbar">Статусбар</string>
+    <string name="lite_category_lockscreen">Экран блокировки</string>
 
     <!-- Maintainer -->
     <string name="lite_category_maintainer">Сопровождающий</string>
