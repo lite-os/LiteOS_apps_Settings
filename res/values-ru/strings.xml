@@ -31,7 +31,8 @@
     <string name="lite_download_summary">Страница загрузки</string>
 
 <!-- Lite menus -->
-    <string name="lite_settings_title">LiteOS</string>
+    <string name="lite_settings_title">Дополнительные настройки</string>
+    <string name="lite_settings_summary">Интерфейс, взаимодействие</string>
     <string name="keywords_lite">LiteOS</string>
 
 </resources>

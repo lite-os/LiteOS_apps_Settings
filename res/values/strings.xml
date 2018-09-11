@@ -33,7 +33,8 @@
     <string name="lite_download_summary">Download page</string>
 
 <!-- Lite menus -->
-	<string name="lite_settings_title">LiteOS</string>
+    <string name="lite_settings_title">Additional Settings</string>
+    <string name="lite_settings_summary">Interface, interaction</string>
     <string name="keywords_lite">LiteOS</string>
 
 </resources>
