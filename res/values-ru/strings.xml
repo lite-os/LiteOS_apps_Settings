@@ -16,11 +16,24 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<!-- Maintainer -->
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Индикатор трафика</string>
+    <string name="network_traffic_summary">Индикатор активности сети в статусбаре</string>
+    <string name="network_traffic_state_title">Показывать индикатор сетевого трафика в строке состояния</string>
+    <string name="network_traffic_autohide_threshold_title">Порог автосрытия индикатора сетевого трафика (КБ/с)</string>
+    <string name="show_network_traffic_disable">Выключить</string>
+    <string name="show_network_traffic_up">Исходящий</string>
+    <string name="show_network_traffic_down">Входящий</string>
+    <string name="show_network_traffic_all">Исходящий и входящий</string>
+
+    <!-- Category -->
+    <string name="lite_category_statusbar">Статусбар</string>
+
+    <!-- Maintainer -->
     <string name="lite_category_maintainer">Сопровождающий</string>
     <string name="lite_maintainer_donate_title">Поддержать</string>
 
-<!-- About -->
+    <!-- About -->
     <string name="about_lite_settings_title">О системе</string>
     <string name="about_lite_settings_summary">Ссылки, информация</string>
     <string name="lite_donate_title">Поддержать</string>
@@ -30,7 +43,7 @@
     <string name="lite_download_title">Загрузки</string>
     <string name="lite_download_summary">Страница загрузки</string>
 
-<!-- Lite menus -->
+    <!-- Lite menus -->
     <string name="lite_settings_title">Дополнительные настройки</string>
     <string name="lite_settings_summary">Интерфейс, взаимодействие</string>
     <string name="lite_settings_interface_title">Интерфейс</string>

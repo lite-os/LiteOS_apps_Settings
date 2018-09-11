@@ -15,14 +15,27 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-<!-- Maintainer -->
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_summary">Option to show net activity meter on status bar</string>
+    <string name="network_traffic_state_title">Net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="show_network_traffic_disable">Disabled</string>
+    <string name="show_network_traffic_up">Outgoing</string>
+    <string name="show_network_traffic_down">Incoming</string>
+    <string name="show_network_traffic_all">Outgoing and incoming</string>
+
+    <!-- Category -->
+    <string name="lite_category_statusbar">Statusbar</string>
+
+    <!-- Maintainer -->
     <string name="lite_category_maintainer">Maintainer</string>
     <string name="lite_maintainer_title">NickName</string>
     <string name="lite_maintainer_donate_title">Donate</string>
     <string name="lite_maintainer_url">https://</string>
     <string name="lite_maintainer_donate_url">https://</string>
 
-<!-- About -->
+    <!-- About -->
     <string name="about_lite_settings_title">About the system</string>
     <string name="about_lite_settings_summary">Links, information</string>
     <string name="lite_donate_title">Support</string>
@@ -32,7 +45,7 @@
     <string name="lite_download_title">Download</string>
     <string name="lite_download_summary">Download page</string>
 
-<!-- Lite menus -->
+    <!-- Lite menus -->
     <string name="lite_settings_title">Additional Settings</string>
     <string name="lite_settings_summary">Interface, interaction</string>
     <string name="lite_settings_interface_title">Interface</string>

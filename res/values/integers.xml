@@ -10,19 +10,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/lite_settings_interface_title">
 
-    <PreferenceCategory
-        android:title="@string/lite_category_statusbar">
+<resources>
 
-        <Preference
-            android:key="traffic"
-            android:fragment="com.lite.settings.fragments.Traffic"
-            android:title="@string/network_traffic_title"
-            android:summary="@string/network_traffic_summary" />
+    <!-- Overlays for NetworkTraffic to use -->
+    <integer name="maskUp">0x00000001</integer>
+    <integer name="maskDown">0x00000002</integer>
 
-    </PreferenceCategory>
-
-</PreferenceScreen>
+</resources>
