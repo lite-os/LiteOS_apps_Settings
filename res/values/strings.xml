@@ -37,6 +37,8 @@
     <string name="lite_settings_summary">Interface, interaction</string>
     <string name="lite_settings_interface_title">Interface</string>
     <string name="lite_settings_interface_summary">Item Display Settings</string>
+    <string name="lite_settings_interaction_title">Interaction</string>
+    <string name="lite_settings_interaction_summary">Interaction with the system</string>
     <string name="keywords_lite">LiteOS</string>
 
 </resources>

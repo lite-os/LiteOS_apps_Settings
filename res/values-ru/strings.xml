@@ -35,6 +35,8 @@
     <string name="lite_settings_summary">Интерфейс, взаимодействие</string>
     <string name="lite_settings_interface_title">Интерфейс</string>
     <string name="lite_settings_interface_summary">Настройки отображения элементов</string>
+    <string name="lite_settings_interaction_title">Взаимодействие</string>
+    <string name="lite_settings_interaction_summary">Взаимодействие с системой</string>
     <string name="keywords_lite">LiteOS</string>
 
 </resources>
