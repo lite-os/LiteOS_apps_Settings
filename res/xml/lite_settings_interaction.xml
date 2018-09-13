@@ -14,4 +14,15 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/lite_settings_interaction_title">
 
+    <PreferenceCategory
+        android:title="@string/lite_category_button">
+
+            <Preference
+                android:key="navigation_bar"
+                android:title="@string/navigationbar_settings_title"
+                android:summary="@string/navigationbar_settings_summary"
+                android:fragment="com.lite.settings.fragments.NavigationBar" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>

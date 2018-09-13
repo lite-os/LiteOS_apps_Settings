@@ -16,6 +16,26 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- NavigationBar -->
+    <string name="navigationbar_settings_title">Панель навигации</string>
+    <string name="navigationbar_settings_summary">Настройка управления навбаром, подсветкой аппаратных кнопок</string>
+    <string name="hardwarekeys_cat_title">Аппаратные кнопки</string>
+    <string name="navigation_bar_show_title">Включить наэкранные кнопки</string>
+    <string name="navigation_bar_show_summary">Аппаратные кнопки будут недоступны</string>
+    <string name="button_backlight_cat">Подсветка кнопок</string>
+    <string name="button_backlight_on_touch_only_title">Подсветка при касании</string>
+    <string name="button_backlight_on_touch_only_summary">Включать подсветку клавиш только после касания</string>
+    <string name="button_backlight_enable_title">Включить</string>
+    <string name="button_manual_brightness">Уровень яркость, отключена при значении 0</string>
+    <string name="backlight_timeout_title">Длительность подсветки кнопок</string>
+    <string name="backlight_timeout_on">Всегда ВКЛ</string>
+    <string name="backlight_timeout_3s">3 сек</string>
+    <string name="backlight_timeout_default">5 сек (по умолчанию)</string>
+    <string name="backlight_timeout_10s">10 сек</string>
+    <string name="backlight_timeout_15s">15 сек</string>
+    <string name="backlight_timeout_20s">20 сек</string>
+    <string name="backlight_timeout_30s">30 сек</string>
+
     <!-- Lockscreen Media Art -->
     <string name="media_art_title">Обложка альбома</string>
     <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
@@ -33,6 +53,7 @@
     <!-- Category -->
     <string name="lite_category_statusbar">Статусбар</string>
     <string name="lite_category_lockscreen">Экран блокировки</string>
+    <string name="lite_category_button">Кнопки</string>
 
     <!-- Maintainer -->
     <string name="lite_category_maintainer">Сопровождающий</string>
