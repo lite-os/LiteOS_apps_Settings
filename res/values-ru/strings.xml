@@ -38,6 +38,7 @@
     <string name="hardware_keys_double_tap_title">Действие по двойному нажатию</string>
     <string name="button_settings_title">Действия</string>
     <string name="button_settings_summary">Назначить действия на нажатия</string>
+    <string name="hardware_keys_wake_title">Пробуждение девайса</string>
 
     <!-- NavigationBar -->
     <string name="navigationbar_settings_title">Панель навигации</string>

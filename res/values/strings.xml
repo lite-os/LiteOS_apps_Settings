@@ -47,6 +47,7 @@
     <string name="hardware_keys_disable_title">Disable keys</string>
     <string name="button_settings_title">Actions</string>
     <string name="button_settings_summary">Assign actions to tapping</string>
+    <string name="hardware_keys_wake_title">Wake device</string>
 
     <!-- NavigationBar -->
     <string name="navigationbar_settings_title">Navigation bar</string>
