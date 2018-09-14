@@ -23,6 +23,12 @@
                 android:summary="@string/navigationbar_settings_summary"
                 android:fragment="com.lite.settings.fragments.NavigationBar" />
 
+            <Preference
+                android:key="button_settings"
+                android:title="@string/button_settings_title"
+                android:summary="@string/button_settings_summary"
+                android:fragment="com.lite.settings.fragments.ButtonsSettings" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>

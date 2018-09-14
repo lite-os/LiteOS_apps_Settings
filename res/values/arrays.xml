@@ -13,6 +13,26 @@
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- HW Keys customization -->
+    <string-array name="action_dialog_entries">
+        <item>@string/action_entry_default_action</item>
+        <item>@string/action_entry_custom_action</item>
+        <item>@string/action_entry_select_app</item>
+    </string-array>
+     <string-array name="action_dialog_values" translatable="false">
+        <item>@string/action_value_default_action</item>
+        <item>@string/action_value_custom_action</item>
+        <item>@string/action_value_select_app</item>
+    </string-array>
+     <string-array name="action_dialog_no_default_entries">
+        <item>@string/action_entry_custom_action</item>
+        <item>@string/action_entry_select_app</item>
+    </string-array>
+     <string-array name="action_dialog_no_default_values" translatable="false">
+        <item>@string/action_value_custom_action</item>
+        <item>@string/action_value_select_app</item>
+    </string-array>
+
     <!--- Buttons backlight timeout -->
     <string-array name="backlight_timeout_entries">
         <item>@string/backlight_timeout_on</item>
