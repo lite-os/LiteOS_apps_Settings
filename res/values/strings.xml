@@ -15,6 +15,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Fp key -->
+    <string name="fp_unlock_keystore_title">FP unlock</string>
+    <string name="fp_unlock_keystore_summary">Allow unlocking device using Fingerprint directly after boot\nNote: at your own risk!</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+
     <!-- HW Keys customization -->
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
@@ -87,6 +93,7 @@
     <string name="lite_category_statusbar">Statusbar</string>
     <string name="lite_category_lockscreen">Lockscreen</string>
     <string name="lite_category_button">Button</string>
+    <string name="lite_category_fp_key">Fingerprint</string>
 
     <!-- Maintainer -->
     <string name="lite_category_maintainer">Maintainer</string>

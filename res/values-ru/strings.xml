@@ -16,6 +16,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Fp key -->
+    <string name="fp_unlock_keystore_title">Разблокировать по отпечатку пальца</string>
+    <string name="fp_unlock_keystore_summary">Разрешить разблокировку отпечатком сразу после запуска устройства\nВнимание: использовать на свой страх и риск!</string>
+    <string name="fprint_sucess_vib_title">Вибрация сканера отпечатка</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка пальцев</string>
+
     <!-- HW Keys customization -->
     <string name="picker_activities">Действия</string>
     <string name="select_custom_app_title">Выбрать приложение</string>
@@ -78,6 +84,7 @@
     <string name="lite_category_statusbar">Статусбар</string>
     <string name="lite_category_lockscreen">Экран блокировки</string>
     <string name="lite_category_button">Кнопки</string>
+    <string name="lite_category_fp_key">Отпечаток</string>
 
     <!-- Maintainer -->
     <string name="lite_category_maintainer">Сопровождающий</string>
