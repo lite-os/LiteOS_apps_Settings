@@ -109,4 +109,11 @@
     <string name="lite_settings_interaction_summary">Взаимодействие с системой</string>
     <string name="keywords_lite">LiteOS</string>
 
+    <!-- Accent picker -->
+    <string name="systemui_theme_style_title">Цвет фона</string>
+    <string name="accent_picker_dialog_title">Палитра цветов</string>
+    <string name="theme_accent_picker_title">Цвет переключателей</string>
+    <string name="theme_accent_picker_summary">Нажмите на цвет ниже, чтобы применить</string>
+    <string name="theme_accent_picker_default">По умолчанию</string>
+
 </resources>
