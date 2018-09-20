@@ -112,8 +112,24 @@
     <!-- Accent picker -->
     <string name="systemui_theme_style_title">Цвет фона</string>
     <string name="accent_picker_dialog_title">Палитра цветов</string>
-    <string name="theme_accent_picker_title">Цвет переключателей</string>
+    <string name="theme_accent_picker_title">Акцент</string>
     <string name="theme_accent_picker_summary">Нажмите на цвет ниже, чтобы применить</string>
     <string name="theme_accent_picker_default">По умолчанию</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_style_title">Стиль иконки батареи</string>
+    <string name="battery_style_port">Вертикально</string>
+    <string name="battery_style_land">Горизонтально</string>
+    <string name="battery_style_circle">Круг</string>
+    <string name="battery_style_dotted_circle">Пунктирный круг</string>
+    <string name="battery_style_big_circle">Большой круг</string>
+    <string name="battery_style_big_dotted_circle">Большой пунктирный круг</string>
+    <string name="battery_style_text">Текст</string>
+    <string name="battery_style_hidden">Скрыть</string>
+    <string name="show_battery_percent_title">Показывать процент заряда</string>
+    <string name="battery_style_category_title">Иконка батареи</string>
+    <string name="battery_percent_none">Не отображать</string>
+    <string name="battery_percent_outside">Рядом с иконкой</string>
+    <string name="battery_percent_inside">Внутри иконки</string>
 
 </resources>
