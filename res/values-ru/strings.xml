@@ -16,6 +16,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!--Double Tap to Sleep Statusbar-->
+    <string name="double_tap_sleep_gesture_title">Двойное нажатие для сна</string>
+
+    <!--Quick pulldown-->
+    <string name="status_bar_quick_qs_pulldown">Прямое открытие быстрых настроек</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Потяните справа, для открытия сразу быстрых настроек</string>
+
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="double_tap_sleep_lockscreen">Двойное нажатие для сна</string>
+
     <!-- Fp key -->
     <string name="fp_unlock_keystore_title">Разблокировать по отпечатку пальца</string>
     <string name="fp_unlock_keystore_summary">Разрешить разблокировку отпечатком сразу после запуска устройства\nВнимание: использовать на свой страх и риск!</string>
