@@ -20,7 +20,6 @@ package com.lite.settings.fragments;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.res.Resources;
-import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.UserHandle;
@@ -77,7 +76,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     private static final String CATEGORY_BACK = "back_key";
     private static final String CATEGORY_ASSIST = "assist_key";
     private static final String CATEGORY_APPSWITCH = "app_switch_key";
-    private static final String CATEGORY_FP = "fp_key";
 
 
     // Masks for checking presence of hardware keys.
@@ -91,14 +89,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
     public static final int KEY_MASK_APP_SWITCH = 0x10;
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
-
-    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
-    private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
-
-    private FingerprintManager mFingerprintManager;
-    private SwitchPreference mFpKeystore;
-    private SystemSettingSwitchPreference mFingerprintVib;
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -141,22 +131,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_ASSIST);
         final PreferenceCategory appSwitchCategory =
                 (PreferenceCategory) prefScreen.findPreference(CATEGORY_APPSWITCH);
-        final PreferenceCategory fpCategory =
-                (PreferenceCategory) prefScreen.findPreference(CATEGORY_FP);
-
-
-        mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
-        mFpKeystore = (SwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
-        mFingerprintVib = (SystemSettingSwitchPreference) findPreference(FINGERPRINT_VIB);
-        if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()){
-        prefScreen.removePreference(mFpKeystore);
-        prefScreen.removePreference(mFingerprintVib);
-        prefScreen.removePreference(fpCategory);
-        } else {
-        mFpKeystore.setChecked((Settings.System.getInt(getContentResolver(),
-               Settings.System.FP_UNLOCK_KEYSTORE, 0) == 1));
-        mFpKeystore.setOnPreferenceChangeListener(this);
-        }
 
         // back key
         if (hasBackKey) {
@@ -220,13 +194,6 @@ public class ButtonsSettings extends ActionFragment implements OnPreferenceChang
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-        final String key = preference.getKey();
-        if (preference == mFpKeystore) {
-         boolean value = (Boolean) objValue;
-         Settings.System.putInt(getActivity().getContentResolver(),
-                  Settings.System.FP_UNLOCK_KEYSTORE, value ? 1 : 0);
-         return true;
-        }
         return false;
     }
 

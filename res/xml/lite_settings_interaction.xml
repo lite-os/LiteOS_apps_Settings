@@ -31,4 +31,22 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="fp_key"
+        android:title="@string/lite_category_fp_key" >
+
+         <SwitchPreference
+            android:key="fp_unlock_keystore"
+            android:title="@string/fp_unlock_keystore_title"
+            android:summary="@string/fp_unlock_keystore_summary"
+            android:persistent="false" />
+
+         <com.lite.settings.preference.SystemSettingSwitchPreference
+            android:key="fingerprint_success_vib"
+            android:title="@string/fprint_sucess_vib_title"
+            android:summary="@string/fprint_sucess_vib_summary"
+            android:defaultValue="true" />
+
+     </PreferenceCategory>
+
 </PreferenceScreen>
