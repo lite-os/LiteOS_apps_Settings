@@ -16,6 +16,18 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- QS Settings -->
+    <string name="qs_panel_alpha_title">Непрозрачность</string>
+    <string name="qs_show_brightness_title">Регулятор яркости</string>
+    <string name="qs_show_brightness_summary">Показать регулятор яркости в панели быстрых настроек</string>
+    <string name="qs_brightness_position_bottom_title">Регулятор яркости внизу</string>
+    <string name="qs_brightness_position_bottom_summary">Показать регулятор яркости внизу панели быстрых настроек</string>
+    <string name="qs_footer_warnings_title">Предупреждение в нижней части</string>
+    <string name="qs_footer_warnings_summary">Показывать предупреждение в нижней панели быстрых настроек, когда сеть контролируется приложениями или VPN</string>
+    <string name="quick_settings_vibrate_title">Вибрация при касании</string>
+    <string name="quick_settings_vibrate_summary">Вибрировать при касании плиток</string>
+    <string name="quicksettings_title">Панель быстрых настроек</string>
+
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Ярлыки экрана блокировки</string>
 

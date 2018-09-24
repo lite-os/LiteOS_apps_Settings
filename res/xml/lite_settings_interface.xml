@@ -40,6 +40,11 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
         </Preference>
 
+        <Preference
+            android:key="quicksettings_category"
+            android:title="@string/quicksettings_title"
+            android:fragment="com.lite.settings.fragments.QuickSettings" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
