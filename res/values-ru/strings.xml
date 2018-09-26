@@ -37,10 +37,6 @@
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Настройка навигационной панели</string>
 
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Предотвращать случайные пробуждения</string>
-    <string name="proximity_wake_summary">Проверять датчик приближения перед включением экрана</string>
-
     <!-- rounding of corners -->
     <string name="corner_radius">Закругление углов</string>
     <string name="corner_fwvals">Настройки фреймворка</string>

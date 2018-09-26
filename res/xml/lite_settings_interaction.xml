@@ -57,11 +57,6 @@
             android:title="@string/double_tap_sleep_lockscreen"
             android:defaultValue="true" />
 
-        <com.lite.settings.preference.SystemSettingSwitchPreference
-            android:key="proximity_on_wake"
-            android:title="@string/proximity_wake_title"
-            android:summary="@string/proximity_wake_summary" />
-
     </PreferenceCategory>
 
     <PreferenceCategory
