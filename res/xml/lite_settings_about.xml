@@ -37,6 +37,12 @@
         android:summary="@string/lite_download_summary"
         settings:allowDividerAbove="false" />
 
+    <!-- Changelog -->
+    <Preference
+        android:key="changelog"
+        android:title="@string/changelog_title"
+        android:summary="@string/changelog_summary"
+        android:fragment="com.lite.settings.fragments.about.Changelog" />
 
     <PreferenceCategory
         android:title="@string/lite_category_maintainer">
