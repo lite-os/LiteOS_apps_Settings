@@ -15,6 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Flash On Call -->
+    <string name="flash_on_call_title">Уведомление вспышкой о входящем вызове</string>
+    <string name="flash_on_call_delay_title">Частота пульсации вспышки</string>
+
     <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С последнего обновления</string>
