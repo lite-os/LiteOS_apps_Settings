@@ -15,10 +15,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Flash On Call -->
-    <string name="flash_on_call_title">Flash on incoming call</string>
-    <string name="flash_on_call_delay_title">Flash pulse rate</string>
-
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>
     <string name="changelog_summary">Since the last update</string>
