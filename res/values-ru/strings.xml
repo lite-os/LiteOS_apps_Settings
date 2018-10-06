@@ -15,6 +15,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- hw key disable -->
+    <string name="hardware_keys_disable_title">Отключить аппаратные кнопки</string>
+
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Мигать вспышкой при вызове</string>
     <string name="flashlight_on_call_disabled">Отключено</string>

@@ -70,6 +70,7 @@ public class NavigationBar extends SettingsPreferenceFragment implements
     private static final String KEY_BUTTON_MANUAL_BRIGHTNESS_NEW = "button_manual_brightness_new";
     private static final String KEY_BUTTON_BACKLIGHT_TOUCH = "button_backlight_on_touch_only";
     private static final String KEY_BUTTON_TIMEOUT = "button_timeout";
+    private static final String HWKEY_DISABLE = "hardware_keys_disable";
 
     private Handler mHandler;
 
@@ -81,6 +82,7 @@ public class NavigationBar extends SettingsPreferenceFragment implements
     private ListPreference mBacklightTimeout;
     private SwitchPreference mEnableNavBar;
     private SwitchPreference mButtonBrightness;
+    private SwitchPreference mHwKeyDisable;
     private SystemSettingSwitchPreference mButtonBacklightTouch;
     private CustomSeekBarPreference mManualButtonBrightness;
 
@@ -108,6 +110,14 @@ public class NavigationBar extends SettingsPreferenceFragment implements
         boolean showNavBar = Settings.System.getInt(resolver,
                     Settings.System.NAVIGATION_BAR_SHOW, showNavBarDefault ? 1:0) == 1;
         mEnableNavBar.setChecked(showNavBar);
+
+        int keysDisabled = 0;
+        if (!showNavBar) {
+            mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
+            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE, 0, UserHandle.USER_CURRENT);
+            mHwKeyDisable.setChecked(keysDisabled != 0);
+            mHwKeyDisable.setOnPreferenceChangeListener(this);
+        }
 
         final PreferenceCategory brightnessCategory =
                 (PreferenceCategory) prefSet.findPreference(KEY_CATEGORY_BRIGHTNESS);
@@ -189,7 +199,12 @@ public class NavigationBar extends SettingsPreferenceFragment implements
             Settings.System.putInt(resolver,
                     Settings.System.BUTTON_BRIGHTNESS, value ? 1 : 0);
             return true;
-        } 
+        } else if (preference == mHwKeyDisable) {
+            boolean value = (Boolean) newValue;
+            Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
+                    value ? 1 : 0);
+            return true;
+        }
         return false;
     }
 
